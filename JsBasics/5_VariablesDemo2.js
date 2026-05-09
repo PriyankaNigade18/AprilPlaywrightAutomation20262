@@ -88,7 +88,7 @@ console.log(orgName);
 
 //reassignment
 const book="Learn Selenium";
-book="Learn Selenium with TestNG";
+//book="Learn Selenium with TestNG";//TypeError: Assignment to constant variable.
 console.log(book);
 
 

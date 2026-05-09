@@ -181,7 +181,7 @@ here keys are by default string
 
 let user={};
 console.log(user);
-console.log(typeof user);
+console.log(typeof user);//object
 
 let person={
             name:"Sarang",

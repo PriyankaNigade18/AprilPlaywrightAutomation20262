@@ -144,8 +144,8 @@ console.log(b);//10
 
 function test4()
 {
-    // let b=20;
-    // console.log(b);//20
+    let b=20;
+    console.log(b);//20
 
     if(true)
     {
@@ -159,6 +159,8 @@ function test4()
 }
 
 test4();
+
+
 
 
 
