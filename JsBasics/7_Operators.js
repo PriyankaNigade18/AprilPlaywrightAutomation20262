@@ -191,6 +191,27 @@ console.log(!(s===k));//false
 console.log(s>x);//false
 console.log(!(s>x));//true
 
+//post
+let m=55;
+//m=m++; //m=55
+m++;//correct 
+console.log(m);//56
+let n=m;
+console.log(n);//56
+
+//pre
+let w=55;
+++w;
+console.log(w);
+let h=w;
+console.log(h);
+
+
+
+
+
+
+
 
 
 
