@@ -192,6 +192,13 @@ console.log(Boolean(NaN));//false
 console.log(Boolean("Hello"));//true
 
 
+console.log(1 + +"2"+"2");
+
+console.log(1+ -"1"+"2");
+
+
+
+
 
 
 
