@@ -163,7 +163,27 @@ test4();
 
 
 
+//Assignment
+function testScope() { 
+if (true)
+{ 
+var a = 10; 
+let b = 20; 
+} 
+console.log(a); // ? 
+console.log(b); // ReferenceError: b is not defined
+} 
 
+//testScope();
+
+//assignment no5
+
+const obj={name:"Alice"};
+obj.name="Bob";//value update
+console.log(obj.name);
+
+obj={name:"charli"};//reassignment
+//TypeError: Assignment to constant variable.
 
 
 

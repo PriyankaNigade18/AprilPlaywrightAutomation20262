@@ -39,7 +39,7 @@ console.log("Hello");
 
 console.log("------------");
 
-console.log("-----forloop----");
+console.log("-----for loop----");
 //print Hello 5 times
 
 for(let i=1;i<=5;i++)
@@ -71,3 +71,37 @@ console.log("---Interview question-----");
 //     console.log("Hi");//infinite time execution
     
 // }
+console.log('----------------');
+//factorial of number
+//5!=5*4*3*2*1=120
+
+let res=1;
+for(let i=5;i>=1;i--)
+{
+   res=res*i;
+}
+
+console.log(res);
+
+console.log("------------------");
+//sum of 100 nuatural numbers=5050
+//1+2+3+4+....+100
+
+let sum=0;
+for(let i=1;i<=100;i++)
+{
+sum=sum+i;
+}
+
+console.log("Sum of 100 natural numbers: "+sum);
+
+
+
+
+
+
+
+
+
+
+

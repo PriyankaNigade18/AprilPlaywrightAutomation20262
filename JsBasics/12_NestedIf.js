@@ -30,6 +30,8 @@ console.log("B");
 
 }
 
+console.log("-------------------");
+
 /*
 Assignment:
 first test for passing score 
@@ -40,4 +42,31 @@ If any student clear the exam then test grade
  81 to 100---->A++
 
 */
+
+
+let score=85;
+
+if(score>=40)
+{
+    console.log("Pass!");
+    //grade
+    if(score>=40 && score<=60)
+    {
+        console.log("B");
+        
+    }else if(score>=61 && score<=80)
+    {
+        console.log("A");
+        
+    }else if(score>=81 && score<=100)
+    {
+        console.log("A++");
+        
+    }
+    
+}else
+{
+    console.log("Fail!");
+    
+}
 
