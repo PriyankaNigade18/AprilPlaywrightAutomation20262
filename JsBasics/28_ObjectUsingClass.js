@@ -37,10 +37,24 @@ constructor
 - In Javascript delcare constructor using constructor()
 - Constructor get called at the time of Object creation
 - In Js only one constructor allowed
+-Constructor Overloading is not possible in Js language
 
 
 this keyword:
 this keyword refers current class object properties as well methods
+
+Garbage Collector
+------------------------
+-It is automechanism called by Js internally for memory management
+-GC always monitor Js engine Heap Memory where object will create
+and store, GC will delete the unused object from Heap memory  and this is how heap 
+memory will maintain
+
+Which objects are eligible for Garbage Collector
+------------------------------------------
+1.No reference object
+2. null reference object
+
 
 
 */
