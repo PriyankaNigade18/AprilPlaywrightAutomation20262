@@ -23,7 +23,7 @@ let test1=function()
 
 //call
 test1();
-console.log(typeof test1);
+console.log(typeof test1);//function
 
 
 console.log("-------Anonymous Function with parameters--------");

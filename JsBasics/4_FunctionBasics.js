@@ -25,7 +25,7 @@ function test1()
 
 //call
 test1();
-console.log(typeof test1);
+console.log(typeof test1);//function
 
 
 console.log("--------2.Anonymous function-------------");
